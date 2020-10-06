@@ -1,0 +1,30 @@
+\documentclass[openany]{book}
+
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx, caption}
+\usepackage{float}
+\usepackage{amsmath, amsfonts, amssymb, esint}
+\usepackage{titlesec}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{pgf,tikz,pgfplots}
+\usepackage{mathrsfs}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Huge}
+
+\newpagestyle{mystyle}
+{
+    \sethead[\thepage][][\chaptertitle]{\thesection~\sectiontitle}{}{\thepage}
+}
+\pagestyle{mystyle}
+
+\title{Physics Booklet}
+\author{Iago Mendes}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \input{divisions/mechanics.tex}
+\end{document}
