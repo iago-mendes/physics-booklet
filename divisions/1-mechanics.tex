@@ -35,6 +35,40 @@
                         \end{equation*}
                 \end{itemize}
         \end{itemize}
+    \subsection{Constant acceleration cases (theorems)}
+        \begin{enumerate}
+            \item $\t{v}=v_0+at$
+                \begin{equation}
+                    a = \dfrac{dv}{dt} \qtq \it a dt=\it \dfrac{dv}{dt} dt \\
+                    \tq a \cdot (t-t_ 0)=\left[\t{v}\right]_{t_0}^t  \qtq \t{v} = v_0 + at
+                \end{equation}
+            \item $\t{x} = x_0 + v_0t + \frac{at^2}{2}$
+                \begin{equation}
+                    \t{v} = v_0 + at \qtq \it \t{v} dt = \it (v_0 + at)dt \\
+                    \tq \t{x} = x_0 + v_0t + \frac{at^2}{2}
+                \end{equation}
+            \item $\t{x} = x_0 + vt - \frac{at^2}{2}$
+                \begin{equation}
+                    v = v_0 + at \qtq v_0=v-at \\
+                    \tq \t{x} = x_0 + (v-at)t + \frac{at^2}{2} \qtq \t{x} = x_0 + vt - \frac{at^2}{2}
+                \end{equation}
+            \item $\t{x} = x_0 + \frac{(v_0+v)t}{2}$
+                \begin{equation}
+                    2x = \t{x}+\t{x} = \left( x_0 + v_0t + \frac{at^2}{2} \right) + \left(x_0 + vt - \frac{at^2}{2}\right) \\
+                    \tq 2x = 2x_0 + v_0t + vt \qtq \t{x} = x_0 + \frac{(v_0+v)t}{2}
+                \end{equation}
+            \item $v^2 = v_0^2 + 2a(x-x_0)$
+                \begin{equation}
+                    \begin{cases} \t{v} = v_0 + at \\
+                    \t{x} = x_0 + \frac{(v_0+v)t}{2} \end{cases}
+                    \qtq \begin{cases}
+                        v-v_0=at \\
+                        v+v_0 = \frac{2(x-x_0)}{t}
+                    \end{cases} \\
+                    \tq v^2 = v_0^2 + 2a(x-x_0)
+                \end{equation}
+        \end{enumerate}
+    
 \section{Forces}
 \section{Energy}
 \section{Momentum}

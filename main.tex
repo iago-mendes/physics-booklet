@@ -10,6 +10,7 @@
 \usepackage{hyperref}
 \usepackage{pgf,tikz,pgfplots}
 \usepackage{mathrsfs}
+\usepackage{enumerate}
 
 \titleformat{\chapter}[display]
   {\normalfont\bfseries}{}{0pt}{\Huge}
@@ -28,6 +29,14 @@
 \newcommand{\vt}[1]{\overrightarrow{#1}(t)} % vector funtion of time
 \newcommand{\vm}[1]{\left|\overrightarrow{#1}\right|} % vector magnitude
 \newcommand{\dt}[1]{\dfrac{d#1}{dt}} % time derivative
+\renewcommand{\t}[1]{#1(t)} % time function
+\newcommand{\qtq}[0]{\quad \therefore \quad}
+\newcommand{\tq}[0]{\therefore \quad}
+\renewcommand{\it}[0]{\int_{t_0}^t} % integral from initial to final
+
+\renewenvironment{equation}
+{\begin{equation*}\begin{gathered}}
+{\end{gathered}\end{equation*}}
 
 \begin{document}
     \maketitle
