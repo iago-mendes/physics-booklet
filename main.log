@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  12 OCT 2020 19:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.26)  12 OCT 2020 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,64 +880,64 @@ Chapter 1.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 111.
+(hyperref)                removing `math shift' on input line 112.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 123.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 122.
+(hyperref)                removing `math shift' on input line 123.
 
 [4]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 135.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 163.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 162.
+(hyperref)                removing `math shift' on input line 163.
 
-) (./divisions/2-relativity.tex [5]
+[5]) (./divisions/2-relativity.tex [6] [7]
 Chapter 2.
-) (./divisions/3-electromagnetism.tex [6
+) (./divisions/3-electromagnetism.tex [8
 
 ]
 Chapter 3.
-) (./divisions/4-thermodynamics.tex [7
+) (./divisions/4-thermodynamics.tex [9
 
 ]
 Chapter 4.
-) (./divisions/5-statistics.tex [8
+) (./divisions/5-statistics.tex [10
 
 ]
 Chapter 5.
-) (./divisions/6-quantum.tex [9
+) (./divisions/6-quantum.tex [11
 
 ]
 Chapter 6.
-) [10
+) [12
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
@@ -946,14 +946,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 50.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C8C05B9FD164573D7BBF715199555953;1395.
+(rerunfilecheck)             Checksum: 12247FCB652AECAA096BC3275D6CC669;1625.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 28512 strings out of 483140
- 677191 string characters out of 5965151
+ 28522 strings out of 483140
+ 677320 string characters out of 5965151
  1080829 words of memory out of 5000000
- 42965 multiletter control sequences out of 15000+600000
+ 42968 multiletter control sequences out of 15000+600000
  542234 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  63i,19n,98p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -972,10 +972,10 @@ r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (10 pages, 169642 bytes).
+Output written on main.pdf (12 pages, 175864 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 42 named destinations out of 1000 (max. 500000)
- 189 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 244 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 

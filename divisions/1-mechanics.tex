@@ -1,4 +1,5 @@
 \chapter{Classical Mechanics}
+
 \section{Kinematics}
     \subsection{Basic concepts}
         \begin{itemize}
@@ -188,6 +189,78 @@
         \end{itemize}
 
 \section{Energy}
+    \subsection{Basic concepts}
+        \begin{itemize}
+            \item Work $(W)$
+                \begin{equation}
+                    W = \int \v{F}\bullet d\v{r}
+                \end{equation}
+            \item Kinetic energy $(K)$
+                \begin{equation}
+                    K=\frac{1}{2}mv^2
+                \end{equation}
+            \item Potential energy $(U)$
+                \begin{equation}
+                    \Delta U = - \int \v{F_{cons}}\bullet d\v{r} = - \Delta W_{cons}
+                \end{equation}
+                \begin{itemize}
+                    \item Spring
+                        \begin{equation}
+                            U=\frac{1}{2}kx^2
+                        \end{equation}
+                    \item Weight
+                        \begin{equation}
+                            U=mgz
+                        \end{equation}
+                \end{itemize}
+            \item Work-Energy theorem
+                \begin{equation}
+                    W_{net}=\Delta K
+                \end{equation}
+                \begin{itemize}
+                    \item Derivation
+                        \begin{equation}
+                            W_{net} = \int_i^f F_{net} \, dx = m\int_i^f \dt{x}dv = m\int_i^f v \, dv \\
+                            \tq W_{net} = \left[\frac{mv^2}{2}\right]_i^f = \Delta K
+                        \end{equation}
+                \end{itemize}
+        \end{itemize}
+    \subsection{Convervation of energy}
+        \begin{itemize}
+            \item Definition
+                \begin{equation}
+                    E_T=K+U=\textrm{constant}\\
+                    \Delta E_T=\Delta K+\Delta U=0
+                \end{equation}
+                if there's no dissipative force
+            \item Conservative forces requirements
+                \begin{itemize}
+                    \item the force has to depend only on the position of objects
+                    \item work done by the force has to depend only on the initial and final states of a system (not on how it got from initial to final)
+                \end{itemize}
+            \item Work done by dissipative forces
+                \begin{equation}
+                    W_{diss}=\Delta E_T
+                \end{equation}
+                \begin{itemize}
+                    \item Derivation
+                        \begin{equation}
+                            W_{net}=W_{cons}+W_{diss}=-\Delta U+W_{diss}=\Delta K\\
+                            \tq W_{diss}=\Delta K+\Delta U=\Delta E_T
+                        \end{equation}
+                \end{itemize}
+        \end{itemize}
+    \subsection{Work done by conservative forces}
+        \begin{enumerate}
+            \item Spring force
+                \begin{equation}
+                    W=\frac{1}{2}kx_i^2-\frac{1}{2}kx_f^2=\frac{k}{2}\left(x_i^2-x_f^2\right)
+                \end{equation}
+            \item Weight
+                \begin{equation}
+                    W=-mg\Delta z
+                \end{equation}
+        \end{enumerate}
 \section{Momentum}
 \section{Angular momentum}
 \section{Lagrangian method}
